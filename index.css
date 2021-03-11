@@ -1,0 +1,122 @@
+body {
+	font-family: arial, sans-serif;
+}
+.main-container {
+	display: flex;
+	width: 448px;
+	height: 500px;
+	background-image: url(./images/580b57fcd9996e24bc43c51f.png);
+	background-size: 80px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 50px;
+	border: 1px solid #dadce0;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 15%;
+	flex-direction: column;
+}
+
+.main-container .titles {
+	display: flex;
+	margin: 0 auto;
+	width: 93.75%;
+	height: 100px;
+	margin-top: 15%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-container .titles h1 {
+	font-size: 25px;
+	text-align: center;
+	color: #2b2c2f;
+}
+
+.main-container .titles h2 {
+	color: #3b3c3f;
+	font-size: 18px;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.acount-container {
+	width: 82.14285%;
+	height: 96px;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.acount-container-input {
+	width: 95%;
+	height: 60%;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.acount-container-input input {
+	width: 95%;
+	height: 95%;
+	border: 1px solid #dadce0;
+	border-radius: 5px;
+}
+
+.acount-container-input input::placeholder {
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
+
+.acount-container a {
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 8px;
+	font-weight: bold;
+	color: #1a73e8;
+}
+
+.text-container {
+	width: 368px;
+	height: 76px;
+	margin: 0 auto;
+}
+
+.text-container p {
+	color: #74787c;
+	font-size: 14px;
+}
+
+.text-container p a {
+	text-decoration: none;
+	color: #1a73e8;
+}
+
+.final-container {
+	display: flex;
+	width: 368px;
+	height: 96px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.final-container button {
+	width: 108px;
+	height: 35px;
+}
+
+.final-container .left-button {
+	color: #1a73e8;
+	background-color: white;
+	border: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+.final-container .right-button {
+	color: white;
+	font-size: 15px;
+	background-color: #1a73e8;
+	border: 1px solid #1a73e8;
+	border-radius: 5px;
+	font-weight: bold;
+}
